@@ -1,0 +1,150 @@
+precedence of operators in excel:-
+ 1.()
+ 2. ^
+ 3. *,/
+ 4. +,-
+ 5. div
+
+ if same precedence the associativity will be like left to right. 
+ 
+ to perform the operations, enter = and select the cells and enter operator to write the expressions.
+ 
+to Access range , use : operator 
+eg:- =B2:B9
+     =B2:F6
+to access the columns and the rows
+ eg:- 1:1 first row
+	1:2 
+ for columns 
+ eg:- A:A first column
+`
+use shift+ctrl+down to select all the columns 
+use ctrl+up to move to top of the excel sheet.
+use ctrl+down to move the bottom of the excel sheet. 
+ 
+=AVERAGE():- used to find the average
+=SUM():- used to find the sum
+=COUNT():- used to find the count
+=MIN():- used to find the minimum value
+=MAX():- used to find the maxixum value
+
+if you want to fill the values with a column untill end, double click at bottom right of the cell.
+
+
+
+References:-
+ we use the $ operator for references
+
+$A2:- referes the  specific  columns
+A$2:-referes to the specific  rows
+$A$2:- referes to specific cell.
+
+TO find access the values from the other sheets
+=sheet_number!operation
+=average(sheet1!B2:B7)
+
+to access data from other workbook (file should be in same directory otherwise the path will be copied in place of workbook)
+=[workbook_name]sheet_number! operation
+
+using if conditions
+
+=IF(condition,true,false)
+
+using and operation
+AND(condition1, condition2,...,conditionN)
+OR(condition1, condition2,...,conditionN)
+
+using concatenation 
+=CONCATENATION(cell,cell2,....,celln)
+
+using sumif function
+=sumif(range_or_cells,"condition")
+eg:- =SUMIF(C2:E2,">80")
+
+
+using count functions
+=COUNT(RANGE) :- used to find the count of the elements in range
+=COUNTA(RANGE):- used to find the count of non empty cells
+=COUNTBLANK(RANGE):- used to find the no of blank cells
+=COUNTIF(RANGE,"value"):- used to find the no of value count in range.
+
+
+date and time functions
+=TODAY():- used to give today date
+=YEAR():- used to give year
+=MONTH():-used to get month
+=DAY():- used to get the day
+=WEEKDAY():- used to get the weekday
+
+=NOW():- used to get the time and date
+=HOUR():- used  to get the hour from the time
+=MINUTE():- used to get the minute from the time
+=SECOND():- used to get the second from the time.
+
+
+
+string functions
+=UPPER():- used to make the whole text into the uppercase
+=LOWER():- used to make the whole text into the lowercase
+=PROPER():- used to make each stating letter capital
+=TRIM():- used to trim the leading and trailing spaces.
+
+
+VLOOKUP function
+ =VLOOKUP(REFERENCE_CELL OR RANGE,WHAT TO CHECK RANGE,1,FALSE):- used to update the values based given input.
+eg:- =VLOOKUP(C11,A2:E8,1,FALSE)
+
+
+ERRORS
+1. #NAME?
+2. #DIV/0! :- division by 0
+3. #REF!   :- reference error
+4. #NULL!  :- null value error
+5. ###### :- when space not sufficient to view
+6. #VALUE! 
+7. #NUM!    
+
+
+Types of charts in excel:-
+1. area
+2. bar
+3. column:- 
+4. line
+5. pie
+6. radar
+7. scatter
+8. stock:
+9. surface 
+
+
+
+indentifing cells on conditional formatting:-( by using conditional formatting the values will get dynamically updated)
+ select the columns and go for options.
+
+
+ 
+creation of pivot tables:-
+
+create your own pivot table
+select the table> insert > pivot table
+
+if you want to add an extra pivot table,
+there are 2 ways
+i.select table> insert> pivot table > exsiting table with cell selected . if cell not selected, destination reference error is found.
+ii. just copy the already exsiting the paste it.
+
+pivot table has 4 tabs at right bottom:
+1. rows :- shows data on row side
+2. column:- shows data on column side
+3. values:- show which values should be displayed.
+4. filter:- used to apply the filters.
+
+
+creation of the dashboard:-
+
+we can remove the gridline from view > uncheck gridline
+insert the background with a picture:- click on pagelayout> background > select pictures.
+create slicers by right clicking on the charts or select them from insert> slicer.
+make the slicers dynamic by rightclick on the slicer and select report connections and select all the charts who want to get affected.
+
+

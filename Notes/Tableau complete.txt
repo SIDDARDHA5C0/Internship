@@ -1,0 +1,24 @@
+1. connect data 
+2. clean 
+
+connect data> excel sheets > select sheet 
+cleaning > cleaned data with data interpreter> review the results 
+to create a calculated field> right click>create a calculated value.
+
+
+
+
+
+
+
+
+
+
+
+
+tableau product suite:
+1.
+2.
+3.
+4.  
+5.

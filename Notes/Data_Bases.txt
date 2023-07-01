@@ -1,0 +1,139 @@
+Relational database meangament system
+
+primary key:- 
+foregin key:- 
+
+
+one-to-many relationship:- 
+many-to-many relationship:-
+
+ER-Diagram:- 
+
+
+
+key concepts of sql
+ 1. tables 
+2. queries
+3. crud operations
+4. data types
+5. constrainstsk
+6. indexes
+
+
+data analysis with sql
+1. filtering data
+2. aggregating data
+3. grouping data
+4. joining tables
+5. subqueries
+
+difference b/w the excel and sql
+excel 					sql
+1. works with flat,tabular data     1. works with relational data stored in 
+structures.					  multiple tables
+2. wide range of data manupulation   2. limited but have some advanced data 
+using pivot tables and formulas        manupulation like subqueries and table 
+3. slower when with large datasets    joins
+						  3. high performance with large dataset.
+
+sql commands
+1. data definition language:- drop,alter,create
+2. data manupulation language:- delete,update,insert
+3. data control language:- revoke,grant
+4. data query language:- select
+
+
+data types in sql 
+1. numberic 
+	a.) 
+2. character
+3. date
+
+
+mysql is a not case-sensitive.
+
+convertion of csv file into a data table in mysql:-
+create a database >select created database in schemas > right click on the tables>
+click "table data import wizard"> select the data file> change the datatypes if required and press next.
+
+convertion of the result into a excel or csv file :- 
+click export icon in the result grid > select location and save the file 
+
+Renaming columns names:- 
+1. we can use change or modify with alter table 
+we can use rename column with alter table.
+
+1. alter table table_name [MODIFY | Change] COLUMN old_column_name new_column_name data_type;
+
+for multiple columns:-
+ALTER TABLE table_name
+ [MODIFY | Change] old_column_name1 new_column_name1 data_type1,
+ [MODIFY | Change] old_column_name2 new_column_name2 data_type2,
+ [MODIFY | Change] old_column_name3 new_column_name3 data_type3,
+...
+
+eg:-ALTER TABLE employees
+MODIFY|change COLUMN salary_amount DECIMAL(10,2);
+
+2. ALTER TABLE table_name
+RENAME COLUMN old_column_name TO new_column_name;
+
+for multiple columns:-
+ALTER TABLE table_name
+RENAME COLUMN old_column_name1 TO new_column_name1,
+RENAME COLUMN old_column_name2 TO new_column_name2,
+RENAME COLUMN old_column_name3 TO new_column_name3,
+...
+
+eg:-ALTER TABLE employees
+RENAME COLUMN salary TO salary_amount;
+
+
+Adding constraints like primary or foreign key:-
+1. adding primary key:-
+alter table table_name add constraint primary key(column_name);
+2. adding forgein key:-
+alter table table_name add constraint foreign key(column_name) references table_name_x(column_name)
+Note:- the following error occurs when the data or record in table is not present in referencing table.->  Cannot add or update a child row: a foreign key constraint fails (`analysis`.`#sql-1660_d`, CONSTRAINT `data_1_ibfk_1` FOREIGN KEY (`id`) REFERENCES `data` (`id`))
+
+joins:-
+we can join 2 tables with different join keywords followed by on keyword with tell on which column the tables are joining.
+
+
+case statements:-
+
+CASE
+    WHEN condition1 THEN result1
+    WHEN condition2 THEN result2
+    WHEN condition3 THEN result3
+    ...
+    ELSE default_result
+END
+
+eg:-
+SELECT name, age,
+    CASE
+        WHEN age >= 18 THEN 'Adult'
+        ELSE 'Minor'
+    END AS age_group
+FROM people;
+:- the age_group column is not create it is just a result.
+
+aggregating functions are:- 
+1. count() :- used to count the rows
+2. avg() :- used to get average.
+3. sum():- used to get the sum.
+4. max():- used to get the maximun.
+5. min():- used to get the minimum.
+
+sorting:-
+query order by column [asc|desc].
+
+
+
+
+data analysis using sql
+
+we can use the edit beside the export icon to edit the results in the result window
+
+

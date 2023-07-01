@@ -1,0 +1,6 @@
+invoice_no,customer_id,gender,age,category,quantity,price,payment_method,invoice_data,shopping_mall
+116234,c245399,Female,25,clothing,5,1500.0,cash,8/8/2013,kalamadir
+171234,c271399,Male,25,clothing,4,1500.0,credit card,5/8/2003,kalamadir
+116134,c241999,Female,25,shoes,3,120.0,cash,5/7/2003,kala
+191204,c248399,Male,25,clothing,5,1500.0,credit card,5/8/2023,kalamadir
+181234,c341399,Female,25,shoes,1,1110.0,credit card,3/2/2003,lakshimpuram

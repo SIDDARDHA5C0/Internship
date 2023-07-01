@@ -1,0 +1,8 @@
+git commands 
+
+1. git config --global user.email "your email"
+2. git config --global user.user  "your name"
+
+
+
+

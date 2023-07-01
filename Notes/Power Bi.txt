@@ -1,0 +1,20 @@
+Power BI:- 
+
+
+data --> power BI --> insights 
+
+Power BI platform :
+1. power BI desktop: used to create reports and analyze
+2. power BI service :- to share and collaborate
+3. power BI report server :- share and collaborate on premises
+4. power BI Embedded:- visual analytics in application 
+
+The flow :
+1. get data
+2. analyze
+3. visualize
+4. publish
+5. collaborate
+
+
+  
