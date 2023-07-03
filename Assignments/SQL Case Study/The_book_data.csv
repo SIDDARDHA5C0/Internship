@@ -1,0 +1,7 @@
+Bookid,title,author,publisher,publication_year,isbn,genre,availability
+1,book1,varun,pearson,2016,2343,friction,1
+2,book2,pak,pearson,2016,2343,family,1
+3,book3,var,omagle,2017,2893,romantic,0
+4,book4,unnie,"son of dear",2388,2343,horror,1
+5,book5,papa,"lily ",2019,9163,tragety,1
+6,book6,nayak,pinkflower,2022,2343,crime,1
